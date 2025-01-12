@@ -1,7 +1,7 @@
 html {
 	--main_color: #9400d3;
-	--background: #fffaf0;
-	-text_color: #2f2f2f;
+	--background: #d5d6db;
+	--text_color: #2f2f2f;
 	background-color: var(--background);
 	color: var(--text_color);
 }	
@@ -10,3 +10,21 @@ html {
 	max-width: 400px;
 	display: flex;
 	flex-direction:column;	
+	background-color: white;
+	border-radius: 25px;
+	margin: 10px;
+	padding: 20px;
+}
+.login>button{
+	border-radius:20px;
+	min-height:40px;
+	
+	margin: 20px;
+	background-color: var(--main_color);
+}
+.login>input{
+	border-radius:20px;
+	min-height:40px;
+	margin: 5px;
+	
+}
